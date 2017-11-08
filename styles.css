@@ -1,14 +1,40 @@
 h1{
     color: green;
 	text-align: center;
-	font-size: 5vw;
+	font-size:5vw;
 	
 }
 p{
 	font-size: 2vw;
-	
-	
+		
 }
-img {
+
+img{
 	max-width: 100%;
+	height: 27vw;
+}
+
+.sisalto{
+	overflow: auto;	
+}
+
+.vasen{
+	float: left;
+	padding: 5%;
+	width: 40%;
+	background-color: #AFE7FA;
+}
+
+.oikea{
+	float:left;
+	padding: 5%;
+	width: 40%;
+	background-color: #FAD2F5;
+}
+
+@media screen and (max-width:865px){
+	.vasen, .oikea{
+		width: 100%;
+	}
+	
 }
